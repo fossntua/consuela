@@ -1,18 +1,14 @@
 /*
-  Web  Server
- 
- A simple web server that shows the value of the analog input pins.
- using an Arduino Wiznet Ethernet shield. 
+ Consuela WebServer
+
+ A simple webserver displaying the status and controlling the relays on consuela relay shield.
  
  Circuit:
  * Ethernet shield attached to pins 10, 11, 12, 13
+ * Consuela shield attached to pins <to be added>
  * Analog inputs attached to pins A0 through A5 (optional)
  
- created 18 Dec 2009
- by David A. Mellis
- modified 4 Sep 2010
- by Tom Igoe
- 
+ created 7th May 2011 
  */
 
 #include <SPI.h>
